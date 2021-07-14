@@ -127,4 +127,12 @@ h1{
 footer{
     text-align: center;
  }
-
+/* media-queries */
+/* Mobile device */
+@media only screen and(max-width:688p){
+    .container{
+        background-color: yellow;
+        width: 100%;
+        flex-direction: column;
+    }
+}
